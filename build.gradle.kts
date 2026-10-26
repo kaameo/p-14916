@@ -26,6 +26,7 @@ dependencies {
     implementation("org.springframework.ai:spring-ai-starter-model-ollama")
     implementation("org.springframework.ai:spring-ai-starter-model-openai")
     implementation("org.springframework.boot:spring-boot-starter-data-elasticsearch")
+    implementation("org.hibernate.orm:hibernate-vector")
     testImplementation("org.testcontainers:testcontainers-elasticsearch")
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("org.postgresql:postgresql")
