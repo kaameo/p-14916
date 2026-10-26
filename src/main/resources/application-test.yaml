@@ -13,4 +13,4 @@ spring:
       embedding:
         model: nomic-embed-text # 기본 768차원. 384차원으로 줄이는 설정은 AiConfig에 있다
       chat:
-        model: qwen3.6:35b # Tool Calling을 지원하는 가벼운 모델
+        model: qwen3.5:4b # Tool Calling을 지원하는 가벼운 모델

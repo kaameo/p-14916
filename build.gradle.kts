@@ -25,6 +25,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-webmvc")
     implementation("org.springframework.ai:spring-ai-starter-model-ollama")
     implementation("org.springframework.ai:spring-ai-starter-model-openai")
+    implementation("org.springframework.ai:spring-ai-starter-model-chat-memory-repository-jdbc") // 대화 이력을 DB에 저장
     implementation("org.hibernate.orm:hibernate-vector")
     compileOnly("org.projectlombok:lombok")
     runtimeOnly("org.postgresql:postgresql")
