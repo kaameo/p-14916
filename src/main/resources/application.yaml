@@ -6,6 +6,9 @@ spring:
       - org.springframework.ai.model.ollama.autoconfigure.OllamaEmbeddingAutoConfiguration
   config:
     import: optional:file:.env[.properties]
+  servlet:
+    encoding:
+      force-response: true # SSE 응답 Content-Type에 charset=UTF-8을 붙여 브라우저에서 한글이 안 깨지게 한다
   jpa:
     hibernate:
       ddl-auto: update
